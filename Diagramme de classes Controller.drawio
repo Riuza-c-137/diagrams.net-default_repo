@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T19:12:19.249Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="YZDz9Sbpg_6n6Bo85LCb" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T19:33:51.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="F6kuPrH2xjvJBn3QEsaV" version="22.1.21" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1740" dy="1770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1740" dy="1630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -284,14 +284,20 @@
         <mxCell id="i3LlxhzEXIOrOoSJDD8H-119" value="+ initPartie(int nbPlayers, String[] playerNames, boolean[] isIA, String[] StrategyNames, boolean skipDistribution, String startingDeckFile) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="i3LlxhzEXIOrOoSJDD8H-96">
           <mxGeometry y="112" width="830" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="i3LlxhzEXIOrOoSJDD8H-121" value="+ play() : boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="i3LlxhzEXIOrOoSJDD8H-96">
+        <mxCell id="i3LlxhzEXIOrOoSJDD8H-125" value="- createPlayers(int nbPlayers, String[] playerNames, boolean[] isIA, String[] strategyNames) : Player[]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="i3LlxhzEXIOrOoSJDD8H-96">
           <mxGeometry y="138" width="830" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="i3LlxhzEXIOrOoSJDD8H-122" value="- distributionCartes() : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="i3LlxhzEXIOrOoSJDD8H-96">
+        <mxCell id="i3LlxhzEXIOrOoSJDD8H-124" value="- applyKarmicCost(Card playedCard) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="i3LlxhzEXIOrOoSJDD8H-96">
           <mxGeometry y="164" width="830" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="i3LlxhzEXIOrOoSJDD8H-123" value="- applyKarmicCost(Card playedCard) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="i3LlxhzEXIOrOoSJDD8H-96">
+        <mxCell id="i3LlxhzEXIOrOoSJDD8H-121" value="+ play() : boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="i3LlxhzEXIOrOoSJDD8H-96">
           <mxGeometry y="190" width="830" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i3LlxhzEXIOrOoSJDD8H-122" value="- distributionCartes() : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="i3LlxhzEXIOrOoSJDD8H-96">
+          <mxGeometry y="216" width="830" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i3LlxhzEXIOrOoSJDD8H-123" value="- applyKarmicCost(Card playedCard) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="i3LlxhzEXIOrOoSJDD8H-96">
+          <mxGeometry y="242" width="830" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
